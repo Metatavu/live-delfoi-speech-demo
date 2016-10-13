@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Delfoi speech demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/main.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer="defer"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous" defer="defer"></script>
+    <script src="/js/RecordRTC.js"></script>
+    <script src="/socket.io/socket.io.js", defer="defer"></script>
+    <script src="/js/main.js" defer="defer"></script>
+  </head>
+  <body>
+    <img class="header-img" src="/img/header_background.png" />
+    <div class="container main-container">
+      <h3>Kaikki internetissä on totta, koska...</h3>
+      <textarea id="question-1" class="form-control record-form"></textarea>
+      <hr/>
+      <h3>Donald Trump on huono presidentti koska...</h3>
+      <textarea id="question-2" class="form-control record-form"></textarea>
+      <hr/>
+      <h3>Java on tulevaisuuden ohjelmointikieli, koska...</h3>
+      <textarea id="question-3" class="form-control record-form"></textarea>
+    </div>
+  </body>
+</html>
